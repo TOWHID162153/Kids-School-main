@@ -60,6 +60,7 @@ body> section{
 }
 
 /* ---------------------------------------------------------------------- SHARE ---------------------------------------------------------------------- */
+
 .home-color {
   color: #fea301;
 }
@@ -143,4 +144,39 @@ body> section{
 .Standard-mid-box{
     margin: 80px 0;
     padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 80px;
 }
+
+.standard-grad-box{
+    border: 2px black solid;
+    border-radius: 18.86px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367.805px;
+    height: 476.784px;
+}
+.grad-box-img{
+    max-width: 142px;
+    max-height: 124px;
+}
+.grad-box-title{
+    font-size: 1.533rem;
+    font-weight: 700;
+}
+.grad-box-info{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.grad-box-link {
+    text-decoration: none;
+    font-size: .98rem;
+    font-weight: 500;
+  }
+
+
+
