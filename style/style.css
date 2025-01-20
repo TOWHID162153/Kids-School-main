@@ -14,11 +14,11 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
-body> section{
+
+.sec-margin-center{
     max-width: 1440px;
     margin: 0 auto;
 }
-
 /* ---------------------------------------------------------------------- NAV ---------------------------------------------------------------------- */
 .navbar {
   justify-content: space-between;
@@ -127,7 +127,12 @@ body> section{
 }
 
 /* ------------------------------------------------------------ Standard Curriculum ------------------------------------------------------------ */
-
+.Standard-bg-img{
+    background: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+}
 .Standard-Curriculum{
     padding: 60px 0px;
 }
