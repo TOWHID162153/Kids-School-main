@@ -1,121 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-body{
-    background-color: #F7F7F7;
+body {
+  background-color: #f7f7f7;
 }
 .quicksand-uniquifier {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-/* ---------------------------------------------------------------------- HEADER ---------------------------------------------------------------------- */
-.header{
-    max-width: 1440px;
-    margin: 0 auto;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-
+/* ---------------------------------------------------------------------- HEADER ---------------------------------------------------------------------- */
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 /* ---------------------------------------------------------------------- NAV ---------------------------------------------------------------------- */
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+  justify-content: space-between;
+  align-items: center;
 }
-.nav-logo-box{
-    display: flex;
-    align-items: center;
+.nav-logo-box {
+  align-items: center;
 }
-.nav-logo{
-    width: 62px;
-    height: 62px;
+.nav-logo {
+  width: 62px;
+  height: 62px;
 }
-.nav-logo-title{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #111111;
+.nav-logo-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111111;
 }
-.nav-ul{
-    display: flex;
-    margin-left: 32px;
+.nav-ul {
+  margin-left: 32px;
 }
-.nav-li{
-    list-style: none;
-    margin-left: 32px;
+.nav-li {
+  list-style: none;
+  margin-left: 32px;
 }
-.nav-links{
-    text-decoration: none;
-    color: #05D4DF;
-    font-size: 1.25rem;
-    font-weight: 500;
+.nav-links {
+  text-decoration: none;
+  color: #05d4df;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
-.nav-btn{
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #FFFFFF;
-    background-color: #FEA301;
-    padding: 10px 60.5px;
-    border: none;
-    border-radius: 12px;
+.nav-btn {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #fea301;
+  padding: 10px 60.5px;
+  border: none;
+  border-radius: 12px;
 }
 
 /* ---------------------------------------------------------------------- SHARE ---------------------------------------------------------------------- */
-.home-color{
-    color: #FEA301;
+.home-color {
+  color: #fea301;
 }
-.about-color{
-    color: #01ACFD;
+.about-color {
+  color: #01acfd;
 }
-.admission-color{
-    color: #5D58EF;
+.admission-color {
+  color: #5d58ef;
 }
-.black-btn{
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #FFFFFF;
-    background-color: #111111;
-    padding: 15px 47px;
-    border: none;
-    border-radius: 12px;
+.black-btn {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #111111;
+  padding: 15px 47px;
+  border: none;
+  border-radius: 12px;
 }
-.display-flex{
-    display: flex;
+.display-flex {
+  display: flex;
 }
-
 
 /* ---------------------------------------------------------------------- BANNER ---------------------------------------------------------------------- */
-.banner{
-    max-width: 1440px;
-    margin: 0 auto;
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
 }
-.banner-box{
-    justify-content: center;
-    align-items: center;
+.banner-box {
+  justify-content: center;
+  align-items: center;
 }
-.banner-box-mar{
-    padding: 0px;
-    margin: 122px 0px;
+.banner-box-mar {
+  padding: 0px;
+  margin: 122px 0px;
 }
-.banner-title{
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin: 0;
-    margin-bottom: 24px;
-    padding: 0px;
-
-}
-
-.banner-info{
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin: 0;
-    margin-bottom: 24px;
-    padding: 0px;
-}
-.banner-img-box{
-    max-width: 470px;
-    height: 575px;
-    margin-left: 50px;
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0px;
 }
 
-
+.banner-info {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0px;
+}
+.banner-img-box {
+  max-width: 470px;
+  height: 575px;
+  margin-left: 50px;
+}
