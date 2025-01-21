@@ -210,10 +210,20 @@ body {
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
 /* ------------------------------------------------------------ OUR STORIES ------------------------------------------------------------ */
-
+#grad04{
+  border: 0.943px solid #fff4dc;
+  background: linear-gradient(0deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.sec-bg-img {
+  background: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+}
 .storie-box{
   width: 50%;
-
 }
 .Stories-top-title{
   font-size: 2.875rem;
@@ -231,6 +241,9 @@ body {
   padding: 15px 25px;
   border: none;
   border-radius: 50px;
+}
+.storie-box-main{
+  gap: 20px;
 }
 
 
