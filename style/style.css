@@ -15,9 +15,9 @@ body {
   margin: 0 auto;
 }
 
-.sec-margin-center{
-    max-width: 1440px;
-    margin: 0 auto;
+.sec-margin-center {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 /* ---------------------------------------------------------------------- NAV ---------------------------------------------------------------------- */
 .navbar {
@@ -79,14 +79,23 @@ body {
   border: none;
   border-radius: 12px;
 }
-.round-btn{
-    font-size: 2.25rem;
-    font-weight: 700;
-    color: #ffffff;
-    background-color: #fea301;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 50%;
+.round-btn {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #fea301;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 50%;
+}
+.green-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #95B226;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
 }
 .display-flex {
   display: flex;
@@ -126,76 +135,175 @@ body {
   margin-left: 50px;
 }
 
-/* ------------------------------------------------------------ Standard Curriculum ------------------------------------------------------------ */
-.Standard-bg-img{
-    background: url(../assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: auto;
+/* ------------------------------------------------------------  STANDERD CURRICULUM  ------------------------------------------------------------ */
+.Standard-bg-img {
+  background: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
 }
-.Standard-Curriculum{
-    padding: 60px 0px;
+.Standard-Curriculum {
+  padding: 60px 0px;
 }
-.Standard-main-title{
-    font-size: 2.875rem;
-    font-weight: 700;
-    color: #000;
+.Standard-main-title {
+  font-size: 2.875rem;
+  font-weight: 700;
+  color: #000;
 }
-.Standard-box{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+.Standard-box {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
-.Standard-mid-box{
-    margin: 80px 0;
-    padding: 0px;
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    gap: 80px;
-}
-
-.standard-grad-box{
-    border: 2px black solid;
-    border-radius: 18.86px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 367.805px;
-    height: 476.784px;
-}
-.grad-box-img{
-    max-width: 142px;
-    max-height: 124px;
-}
-.grad-box-title{
-    font-size: 1.533rem;
-    font-weight: 700;
-}
-.grad-box-info{
-    font-size: 1rem;
-    font-weight: 500;
+.Standard-mid-box {
+  margin: 80px 0;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
 }
 
+.standard-grad-box {
+  border: 2px black solid;
+  border-radius: 18.86px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 367.805px;
+  height: 476.784px;
+}
+.grad-box-img {
+  max-width: 142px;
+  max-height: 124px;
+}
+.grad-box-title {
+  font-size: 1.533rem;
+  font-weight: 700;
+}
+.grad-box-info {
+  font-size: 1rem;
+  font-weight: 500;
+}
 
 .grad-box-link {
-    text-decoration: none;
-    font-size: .98rem;
-    font-weight: 500;
-  }
-
-#grad01{
-    border: 0.943px solid #DEF5FF;
-    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
-    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
-}
-#grad02{
-    border: 0.943px solid #FFF4DC;
-    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
-    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
-}
-#grad03{
-    border: 0.943px solid #F2E8FF;
-    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
-    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+  text-decoration: none;
+  font-size: 0.98rem;
+  font-weight: 500;
 }
 
+#grad01 {
+  border: 0.943px solid #def5ff;
+  background: linear-gradient(180deg, #def5ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+#grad02 {
+  border: 0.943px solid #fff4dc;
+  background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+#grad03 {
+  border: 0.943px solid #f2e8ff;
+  background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+/* ------------------------------------------------------------ OUR STORIES ------------------------------------------------------------ */
+/* .grad04 {
+  border: 0.943px solid #fff4dc;
+  background: linear-gradient(0deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.storie-mid-box{
+  margin: 80px 0;
+  padding: 0px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.sky-blue-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #3CD8E8;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+}
+.storie-box{
+  border: 1px solid black;
+  max-width: 540.267px;
+  max-height: 630.518px;
+  border-radius: 16px;
+}
+.storie-content-center{
+  text-align: center;
+}
+.storie-box-img{
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+.storie-box-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.storie-box-info{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.storie-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.storie-grid-box{
+  max-width: 290.693px;
+  max-height: 250px;
+  border-radius: 16px;
+}
+.storie-box-justify{
+  justify-content: space-between;
+}
+ */
+
+
+/* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
+.footer-main-box{
+  background-color: #01ACFD;
+   height: 520px;
+   align-content: center;
+}
+.logo-w{
+  max-height: 83px;
+  max-width: 83px;
+}
+.footer-logo-title{
+  font-size: 2.634rem;
+  font-weight: 700;
+  color: #FFF;
+}
+.footer-title{
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: #FFF;
+}
+.footer-info{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFF;
+}
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-logos{
+  gap: 20px;
+}
+.logo-w-text{
+  flex-direction: row;
+}
+.footer-logo-aling{
+  align-content: center;
+}
