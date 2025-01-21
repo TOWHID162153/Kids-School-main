@@ -312,3 +312,14 @@ margin-left: 40px;
 .logo-w-text{
   flex-direction: row;
 }
+
+
+
+
+/*  media */
+@media screen and (max-width: 576) {
+  .navbar, .nav-ul{
+    flex-direction: column;
+  }
+  
+}
