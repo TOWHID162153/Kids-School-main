@@ -210,65 +210,34 @@ body {
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
 /* ------------------------------------------------------------ OUR STORIES ------------------------------------------------------------ */
-/* .grad04 {
-  border: 0.943px solid #fff4dc;
-  background: linear-gradient(0deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
-    #fff;
-  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+
+.storie-box{
+  width: 50%;
 }
-.storie-mid-box{
-  margin: 80px 0;
-  padding: 0px;
-  justify-content: space-between;
+.Stories-top-title{
+  font-size: 2.875rem;
+  font-weight: 700;
+}
+.stories-up-down{
   text-align: center;
-  align-items: center;
 }
-.sky-blue-btn {
-  font-size: 1rem;
+.sky-blue-btn{
+  font-size: 1.rem;
   font-weight: 500;
   color: #ffffff;
   background-color: #3CD8E8;
-  padding: 15px 20px;
+  padding: 15px 25px;
   border: none;
   border-radius: 50px;
 }
-.storie-box{
-  border: 1px solid black;
-  max-width: 540.267px;
-  max-height: 630.518px;
-  border-radius: 16px;
-}
-.storie-content-center{
-  text-align: center;
-}
-.storie-box-img{
-  border-top-right-radius: 16px;
-  border-top-left-radius: 16px;
-}
-.storie-box-title{
+.storie-title{
   font-size: 1.5rem;
   font-weight: 700;
 }
-.storie-box-info{
+.storie-info{
   font-size: 1rem;
   font-weight: 400;
 }
-.storie-grid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-.storie-grid-box{
-  max-width: 290.693px;
-  max-height: 250px;
-  border-radius: 16px;
-}
-.storie-box-justify{
-  justify-content: space-between;
-}
- */
-
-
 /* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
 .footer-main-box{
   background-color: #01ACFD;
@@ -303,7 +272,4 @@ body {
 }
 .logo-w-text{
   flex-direction: row;
-}
-.footer-logo-aling{
-  align-content: center;
 }
