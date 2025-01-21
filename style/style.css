@@ -223,7 +223,7 @@ body {
   background-position: auto;
 }
 .storie-box{
-  width: 50%;
+  border: 5px solid black;
 }
 .Stories-top-title{
   font-size: 2.875rem;
