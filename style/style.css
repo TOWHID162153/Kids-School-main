@@ -230,6 +230,7 @@ body {
 .storie-box{
   background-color: #fff;
   border-radius: 16px;
+  flex-wrap: wrap;
 }
 .storie-box img{
    width: 100%;
@@ -255,7 +256,14 @@ body {
   border: none;
   border-radius: 50px;
 }
-
+.left-story-margin{
+  margin-left: 25px;
+  margin-top: -30px;
+}
+.right-story-margin{
+  margin-left: 20px;
+  margin-top: -25px;
+}
 /* margin */
 /* .btn-margin-1{
 margin-top: -300px;
@@ -275,10 +283,12 @@ margin */
 .storie-title{
   font-size: 1.5rem;
   font-weight: 700;
+  padding-bottom: 35px;
 }
 .storie-info{
   font-size: 1rem;
   font-weight: 400;
+  padding-bottom : 35px;
 }
 .storie-grid-box{
   display: grid;
