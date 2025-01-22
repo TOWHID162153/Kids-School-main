@@ -346,30 +346,62 @@ margin */
 .footer-container{
   margin-right: 50px;
 }
-
+.hambargar{
+  display: none;
+}
+.nav-down-border{
+  display: none;
+}
+.marquee{
+  display: none;
+}
 /*  media */
 
 
 @media  only  screen and (max-width: 576px) {
-  .navbar , .nav-ul{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: .8px solid #fea301;
+    padding: 10px 16px;
+  }
+  body{
+    margin: 0px;
+  }
+  
+  
+  .hambargar{
+    display: block;
+  }
+  .marquee{
+    display: block;
   }
   /* banner */
 
   .banner{
+    padding: 0 16px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     align-content: center;
   }
+  .banner-img-box{
+    height: 460px;
+  }
   .banner-img-box img{
-    width: 100%;
+    width: 360px;
+    
    text-align: center;
+}
+.banner-title{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.banner-info{
+  font-size: .8rem;
+  font-weight: 400;
 }
 .banner-img-box{
   margin-left: 0px;
@@ -384,11 +416,17 @@ margin */
 }
 /* stander */
 .Standard-Curriculum{
+  padding: 0px 16px;
+}
+
+.Standard-Curriculum{
   padding: 20px 0;
 }
 .Standard-main-title{
   margin-top: 26px;
   margin-bottom: 26px;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 .Standard-mid-box {
     margin: 40px 0;
@@ -404,16 +442,31 @@ margin */
 }
 
 /* story */
-
+.sec-bg-img{
+  padding: 0px 16px;
+}
 .storie-box{
   max-height: 375px;
 }
+.Stories-top-title{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
 .storie-title{
     font-size: 1rem;
   font-weight: 700;
   padding-bottom: 25px;
 }
-
+.black-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #111111;
+  padding: 9px 30px;
+  border: none;
+  border-radius: 12px;
+}
 .green-btn{
   font-size: .8rem;
   font-weight: 500;
