@@ -372,8 +372,18 @@ margin */
 .banner-img-box{
   margin-left: 0px;
 }
-
+.banner-box-mar{
+  margin: 20px 0;
+  text-align: center;
+}
+/* all hide */
+.hide{
+  display: none;
+}
 /* stander */
+.Standard-Curriculum{
+  padding: 20px 0;
+}
 .Standard-main-title{
   margin-top: 26px;
   margin-bottom: 26px;
@@ -385,9 +395,16 @@ margin */
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
     justify-content: center;
+    justify-items: center;
 }
 .standard-grad-box{
   justify-content: center;
+}
+
+/* story */
+
+.storie-box{
+
 }
 /* footer */
 .footeer-box, .footer-grid{
@@ -404,23 +421,23 @@ margin */
   font-size: 1.2rem;
   font-weight: 700;
   color: #FFF;
-  text-align: center;
+  /* text-align: center; */
 }
-.footer-logo-aling{
+/* .footer-logo-aling{
   justify-content: center;
   align-items: center;
-}
+} */
 .footer-info{
-  text-align: center;
+  /* text-align: center; */
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .footer-container{
   margin-left: 50px ;
 }
-.footer-logos{
+/* .footer-logos{
   text-align: center;
-}
+} */
   
 }
 
