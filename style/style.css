@@ -231,6 +231,8 @@ body {
   background-color: #fff;
   border-radius: 16px;
   flex-wrap: wrap;
+  border: .5px rgb(233, 233, 233) solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 3px 10px 0 rgba(0, 0, 0, 0.04);
 }
 .storie-box img{
    width: 100%;
@@ -306,6 +308,9 @@ margin */
   max-height: 83px;
   max-width: 83px;
 }
+.foot-logo-alnig img{
+  width: 100%;
+}
 .footer-logo-title{
   font-size: 2.634rem;
   font-weight: 700;
@@ -336,12 +341,86 @@ margin */
   justify-content: center;
   align-content: center;
 }
-
+.footer-container{
+  margin-right: 50px;
+}
 
 /*  media */
-@media screen and (max-width: 576) {
-  .navbar, .nav-ul{
+
+
+@media  only  screen and (max-width: 576px) {
+  .navbar , .nav-ul{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
   }
+  /* banner */
+
+  .banner{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .banner-img-box img{
+    width: 100%;
+   text-align: center;
+}
+.banner-img-box{
+  margin-left: 0px;
+}
+
+/* stander */
+.Standard-main-title{
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.Standard-mid-box {
+    margin: 40px 0;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    justify-content: center;
+}
+.standard-grad-box{
+  justify-content: center;
+}
+/* footer */
+.footeer-box, .footer-grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.footer-logo-title{
+  font-size: 1.534rem;
+  font-weight: 700;
+  color: #FFF;
+}
+.footer-title{
+  margin: 10;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #FFF;
+  text-align: center;
+}
+.footer-logo-aling{
+  justify-content: center;
+  align-items: center;
+}
+.footer-info{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-container{
+  margin-left: 50px ;
+}
+.footer-logos{
+  text-align: center;
+}
   
 }
+
